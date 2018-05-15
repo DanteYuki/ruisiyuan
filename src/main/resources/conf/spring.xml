@@ -30,13 +30,13 @@
 	<!-- 启动对@AspectJ注解的支持 -->
 	<aop:aspectj-autoproxy proxy-target-class="true"/>
 
-	<!-- 日志注解 -->
-	<bean id="logAspect" class="com.ssm.annotation.LogAspect" />
+	<!-- 日志注解 
+	<bean id="logAspect" class="com.ssm.annotation.LogAspect" />-->
 
-	<!-- 异常注解 -->
-	<bean id="exceptionAspect" class="com.ssm.annotation.ExceptionAspect"/>
+	<!-- 异常注解 
+	<bean id="exceptionAspect" class="com.ssm.annotation.ExceptionAspect"/>-->
 
-	<!-- redis缓存注解 -->
+	<!-- redis缓存注解 
 	<bean id="redisAspect" class="com.ssm.annotation.RedisAspect"/>
-
+	-->
 </beans>

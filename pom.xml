@@ -267,7 +267,6 @@
 			</plugin>
 		</plugins>
 		<!-- 解決 idea中spring + mybatis整合，配置扫描*Mapper.xml路径后，无法扫描映射文件问题 -->
-		<!-- 这样也可以把所有的xml文件，打包到相应位置,参考http://blog.csdn.net/miaoy220/article/details/53447277。-->
 		<resources>
 			<resource>
 				<directory>src/main/java</directory>
